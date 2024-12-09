@@ -21,7 +21,7 @@ class TestStringUtils(unittest.TestCase):
         self.assertEqual(reverse_string("world"), "dlrow")
 
     def test_is_palindrome(self):
-        self.assertTrue(is_palindrome("racecar"))
+        self.assertTrue(is_palindrome("racear"))
         self.assertTrue(is_palindrome("A man, a plan, a canal, Panama"))
         self.assertFalse(is_palindrome("hello"))
 
